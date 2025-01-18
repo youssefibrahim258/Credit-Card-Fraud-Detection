@@ -13,7 +13,6 @@ The **Credit Card Fraud Detection** project aims to develop a machine learning m
 
 - **OverSampling**: Increases the number of minority class samples by duplicating them.
 - **UnderSampling**: Reduces the number of majority class samples to balance the dataset.
-- **SMOTE**: Generates synthetic samples for the minority class to balance the dataset.
 - **Combination**: Combines OverSampling, UnderSampling, and SMOTE for optimal balance.
 
 ## Modeling
