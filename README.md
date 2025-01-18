@@ -1,7 +1,7 @@
 # Credit-Card-Fraud-Detection
 
 ## Project Overview 
-The **Credit Card Fraud Detection** project aims to develop a machine learning model capable of detecting fraudulent credit card transactions. The project focuses on using different sampling techniques, preprocessing steps, and various classification algorithms to improve model performance. The results are evaluated based on metrics such as F1 score and AUC-PR, with the objective of achieving high detection accuracy while minimizing false positives.
+The **Credit Card Fraud Detection** project aims to develop a machine learning model capable of detecting fraudulent credit card transactions. The project focuses on using different sampling techniques, preprocessing steps, and various classification algorithms to improve model performance. The results are evaluated based on metrics such as F1 score , with the objective of achieving high detection accuracy while minimizing false positives.
 
 ## Key Insights
 
