@@ -27,14 +27,10 @@ The **Credit Card Fraud Detection** project aims to develop a machine learning m
 
 The models were tuned by performing **Random Search** to find the best hyperparameters based on the **F1 score**. This helped in identifying the optimal settings for each model to improve its prediction accuracy.
 
-## Model Evaluation and Results 💾
-
-Here is a visual representation of the model evaluation:
 
 ![Model Evaluation Results](final_best_configurations.png)
 
-
-The following table summarizes the performance of each model based on training and testing metrics:
+## Model Evaluation and Results 💾
 
 | Model                     | Training F1 Score | Validation F1 Score |
 |---------------------------|-------------------|---------------------|
