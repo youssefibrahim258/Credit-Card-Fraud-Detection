@@ -31,7 +31,8 @@ The models were tuned by performing **Random Search** to find the best hyperpara
 
 Here is a visual representation of the model evaluation:
 
-![Model Evaluation Results](images/final_best_configurations.png)
+![Model Evaluation Results](final_best_configurations.png)
+
 
 The following table summarizes the performance of each model based on training and testing metrics:
 
