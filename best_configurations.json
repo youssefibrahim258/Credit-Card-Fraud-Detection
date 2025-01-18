@@ -1,0 +1,74 @@
+{
+    "best_configurations": [
+        {
+            "model": "LogisticRegression",
+            "preprocessor": "StandardScaler",
+            "sampler": "UnderSampling",
+            "params": {
+                "solver": "lbfgs",
+                "random_state": 42,
+                "max_iter": 50,
+                "class_weight": {
+                    "0": 0.2,
+                    "1": 1
+                },
+                "C": 0.01
+            },
+            "train_f1_score": 0.8100358422939068,
+            "val_score": 0.8072289156626506,
+            "best_threshold": 0.6697885886914129
+        },
+        {
+            "model": "RandomForestClassifier",
+            "preprocessor": "StandardScaler",
+            "sampler": "UnderSampling",
+            "params": {
+                "random_state": 42,
+                "n_estimators": 50,
+                "min_samples_split": 2,
+                "min_samples_leaf": 2,
+                "max_depth": 10,
+                "class_weight": {
+                    "0": 0.1,
+                    "1": 1
+                }
+            },
+            "train_f1_score": 0.9054054054054054,
+            "val_score": 0.8587570621468926,
+            "best_threshold": 0.2782308051268511
+        },
+        {
+            "model": "VotingClassifier",
+            "preprocessor": "StandardScaler",
+            "sampler": "UnderSampling",
+            "params": {
+                "weights": [
+                    1,
+                    1
+                ],
+                "voting": "soft"
+            },
+            "train_f1_score": 0.9621451104100947,
+            "val_score": 0.8421052631578947,
+            "best_threshold": 0.2652899855381812
+        },
+        {
+            "model": "MLPClassifier",
+            "preprocessor": "StandardScaler",
+            "sampler": "UnderSampling",
+            "params": {
+                "solver": "adam",
+                "random_state": 42,
+                "max_iter": 500,
+                "hidden_layer_sizes": [
+                    50
+                ],
+                "alpha": 0.001,
+                "activation": "tanh"
+            },
+            "train_f1_score": 0.9385665529010239,
+            "val_score": 0.8757396449704142,
+            "best_threshold": 0.28796599215040763
+        }
+    ]
+}
